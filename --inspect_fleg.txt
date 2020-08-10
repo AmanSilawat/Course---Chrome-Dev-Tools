@@ -1,0 +1,15 @@
+1. +++using this method to create a local server+++
+   i) open terminal.
+   ii) open your project type npm install.
+   iii) npm start create http://localhost:3000 a local server.
+
+2. terminal commend: "node start" is same as "node  server/index.js"  
+	open package.json file in your project find:
+	- - - - - - -
+	"scripts": {
+	    "start": "node server/index.js"
+	},
+	- - - - - - -
+
+3. node --inspect server/index.js
+	on browser inspect top left side dedicated devTools for nood.js

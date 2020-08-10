@@ -1,0 +1,11 @@
+
+what you wanna see when you're doing heavy animation ,is only the stuff that's moving is getting repainted.
+
+lot of website feel slow is even though you are only animating over here, every thign is repainted. and look this website, it's call to read and write element. some people are doning document.body.element set height, maybe you don't need to be doing that.
+
+
+<!-- goto: https://www.koalastothemax.com/ -->
+
+open this site and goto the inspect element -> press esc key to open console panel on bottom the screen -> more or three dot -> checked paint flashing.
+
+after this setup your browser screen, whenever anything is being repainted, and it shows you what all is being repainted.
